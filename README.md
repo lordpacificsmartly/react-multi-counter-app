@@ -1,12 +1,35 @@
-# React + Vite
+# React Multi-Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that demonstrates how to manage multiple independent counters using the `useState` hook. Users can dynamically add new counters, increment them independently, and explore key React concepts like dynamic list rendering, immutability, and managing arrays of objects in state.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://lordpacificsmartly.github.io/react-multi-counter-app](https://lordpacificsmartly.github.io/react-multi-counter-app)
 
-## Expanding the ESLint configuration
+This demo is hosted using GitHub Pages and built with Vite and React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Dynamically add multiple counters
+- Each counter maintains its own value
+- Increment counters independently
+- Clean, centered layout using CSS Flexbox
+- Code is beginner-friendly and ideal for learning `useState` and array state updates
+
+## Technologies Used
+
+- React (with hooks)
+- JavaScript (ES6+)
+- Vite (as build tool)
+- CSS (Flexbox layout)
+- Git and GitHub for version control and deployment
+
+## Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/lordpacificsmartly/react-multi-counter-app.git
+cd react-multi-counter-app
+npm install
+npm run dev
